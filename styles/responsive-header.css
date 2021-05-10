@@ -1,0 +1,135 @@
+@media only screen and (min-width: 1920px){
+  header{
+    height: 400px;
+    background-size: 100% 100%;
+  }
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1919px){
+  header{
+    height: 360px;
+    background-size: 100% 100%;
+  }
+}
+
+@media only screen and (min-width: 1066px) and (max-width: 1365px){
+  header{
+    height: 360px;
+    background-size: 100% 100%;
+  }
+
+  header div{
+    width: 40%;
+  
+    margin-top: 30px;
+    margin-left: 150px;
+  }
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1066px){
+  header{
+    height: 320px;
+    background-size: 100% 100%;
+  }
+
+  header div{ 
+    width: 45%;
+  
+    margin-top: 15px;
+    margin-left: 150px;
+  }
+  
+}
+
+@media only screen and (min-width: 768px) and (max-width: 990px){
+  header{
+    height: 320px;
+    background-size: 100% 100%;
+  }
+
+  header div{   
+    width: 50%;
+  
+    margin-top: 45px;
+    margin-left: 130px;
+  }
+}
+
+@media only screen and (min-width: 411px) and (max-width: 767px){
+  header{
+    height: 400px;
+    background-size: 1400px 400px;
+  }
+
+  header div{ 
+    width: 82%;
+
+    line-height: 25px;
+
+    margin-top: 55px;
+    margin-left: 35px;
+  }
+
+  header h1{
+    width: 60%;
+
+    line-height: 40px;
+    margin-top: 15px;
+  }
+
+  header p:first-of-type{
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 410px){
+  header{
+    height: 400px;
+    background-size: 1400px 400px;
+  }
+
+  header div{
+    width: 83%;
+    line-height: 25px;
+
+    margin-top: 55px;
+    margin-left: 20px;
+  }
+
+  header h1{
+    width: 60%;
+
+    line-height: 40px;
+    margin-top: 15px;
+  }
+
+  header p:first-of-type{
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 374px){
+  header{
+    height: 400px;
+    background-size: 1400px 400px;
+  }
+
+  header div{
+    width: 83%;
+    line-height: 25px;
+
+    margin-top: 55px;
+    margin-left: 20px;
+  }
+
+  header h1{
+    width: 60%;
+
+    line-height: 40px;
+    margin-top: 15px;
+  }
+
+  header p:first-of-type{
+    margin-bottom: 0px;
+  }
+}

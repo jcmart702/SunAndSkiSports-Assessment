@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>John Martinez - Simple Test</title>
+        <link rel="stylesheet" href="./styles/main.css">
+    </head>
+    <body>
+
+        <!-- Banner Area -->
+        <header>
+            <div>
+                <p>New Snowboard Gear</p>
+                <h1>Never Stop Riding</h1>
+                <p>Get the latest snowboard gear from all your favorite brands like Burton, Ride, Lib Tech and more.</p>
+                <button onclick="checkSales()">Shop Snowboard Deals</button>
+            </div>
+        </header>
+
+        <!-- Product Area -->
+        <div id="product-list">
+            <h2>Top Selling Snowboard Gear</h2>
+
+            <div id="product-container">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/products/burton-womens-yeasayer-flying-v-snowboard.jpg"/>
+                        <p>Message</p>
+                    </div>
+                    <p onclick="restrictedBrands(this)"><a href="#">Burton Women's Yeasayer Flying V Snowboard '21</a></p>
+                    <p class="price">$449.95</p>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/products/k2-boys-mini-turbo-snowboard.jpg"/>
+                        <p>Message</p>
+                    </div>
+                    <p onclick="restrictedBrands(this)"><a href="#">K2 Boy's Mini Turbo Snowboard '20</a></p>
+                    <p class="price">$199.95</p>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images//products/ride-mens-snowtrooper-snowboard.jpeg"/>
+                        <p>Message</p>
+                    </div>
+                    <p onclick="restrictedBrands(this)"><a href="#">Ride Men's Snowtrooper Snowboard '21</a></p>
+                    <p class="price"><span class="discount-price">$499.93</span> <span class="original-price">$549.95</span></p>
+                </div>
+            </div>
+        </div>
+
+    </body>
+    <script type="text/javascript" src="scripts/restrictedBrand.js"></script>
+    <script type="text/javascript" src="scripts/productSales.js"></script>
+</html>
