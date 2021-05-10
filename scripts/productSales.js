@@ -25,6 +25,10 @@ let productData =
   ]
 };
 
+document.getElementById("deals-button").addEventListener('click', function(){
+  checkSales();
+})
+
 function checkSales(){
   productData.products.forEach(
     function(product){
